@@ -1,0 +1,81 @@
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\bin\Debug\WpfApp ИСиТ 2 лаба.exe.config
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\bin\Debug\WpfApp ИСиТ 2 лаба.exe
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\bin\Debug\WpfApp ИСиТ 2 лаба.pdb
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\WpfApp ИСиТ 2 лаба.csproj.AssemblyReference.cache
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\AddEditPage.g.cs
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\HotelsPage.g.cs
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\MainWindow.g.cs
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\App.g.cs
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\WpfApp ИСиТ 2 лаба_MarkupCompile.cache
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\WpfApp ИСиТ 2 лаба_MarkupCompile.lref
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\AddEditPage.baml
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\HotelsPage.baml
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\MainWindow.baml
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\WpfApp ИСиТ 2 лаба.g.resources
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\WpfApp_ИСиТ_2_лаба.Properties.Resources.resources
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\WpfApp ИСиТ 2 лаба.csproj.GenerateResource.cache
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\WpfApp ИСиТ 2 лаба.csproj.CoreCompileInputs.cache
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\WpfApp ИСиТ 2 лаба.exe
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\WpfApp ИСиТ 2 лаба.pdb
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\WpfApp ИСиТ 2 лаба_Content.g.cs
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\bin\Debug\EntityFramework.dll
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\bin\Debug\EntityFramework.SqlServer.dll
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\bin\Debug\EntityFramework.xml
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\bin\Debug\EntityFramework.SqlServer.xml
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\bin\Debug\ru\EntityFramework.resources.dll
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\App.baml
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба\obj\Debug\WpfApp _.60A61478.Up2Date
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\bin\Debug\WpfApp ИСиТ 2 лаба.exe.config
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\bin\Debug\WpfApp ИСиТ 2 лаба.exe
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\bin\Debug\WpfApp ИСиТ 2 лаба.pdb
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\bin\Debug\EntityFramework.dll
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\bin\Debug\EntityFramework.SqlServer.dll
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\bin\Debug\EntityFramework.xml
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\bin\Debug\EntityFramework.SqlServer.xml
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\bin\Debug\ru\EntityFramework.resources.dll
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\WpfApp ИСиТ 2 лаба.csproj.AssemblyReference.cache
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\AddEditPage.g.cs
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\HotelsPage.g.cs
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\MainWindow.g.cs
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\App.g.cs
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\WpfApp ИСиТ 2 лаба_Content.g.cs
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\WpfApp ИСиТ 2 лаба_MarkupCompile.cache
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\WpfApp ИСиТ 2 лаба_MarkupCompile.lref
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\App.baml
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\AddEditPage.baml
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\HotelsPage.baml
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\MainWindow.baml
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\WpfApp ИСиТ 2 лаба.g.resources
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\WpfApp_ИСиТ_2_лаба.Properties.Resources.resources
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\WpfApp ИСиТ 2 лаба.csproj.GenerateResource.cache
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\WpfApp ИСиТ 2 лаба.csproj.CoreCompileInputs.cache
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\WpfApp _.60A61478.Up2Date
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\WpfApp ИСиТ 2 лаба.exe
+D:\лабы\Будилов\2 семестр\WpfApp ИСиТ 2 лаба — копия\obj\Debug\WpfApp ИСиТ 2 лаба.pdb
+D:\mkk_project\WpfApp-Praktika\bin\Debug\WpfApp ИСиТ 2 лаба.exe.config
+D:\mkk_project\WpfApp-Praktika\bin\Debug\WpfApp ИСиТ 2 лаба.exe
+D:\mkk_project\WpfApp-Praktika\bin\Debug\WpfApp ИСиТ 2 лаба.pdb
+D:\mkk_project\WpfApp-Praktika\bin\Debug\EntityFramework.dll
+D:\mkk_project\WpfApp-Praktika\bin\Debug\EntityFramework.SqlServer.dll
+D:\mkk_project\WpfApp-Praktika\bin\Debug\EntityFramework.xml
+D:\mkk_project\WpfApp-Praktika\bin\Debug\EntityFramework.SqlServer.xml
+D:\mkk_project\WpfApp-Praktika\bin\Debug\ru\EntityFramework.resources.dll
+D:\mkk_project\WpfApp-Praktika\obj\Debug\WpfApp ИСиТ 2 лаба.csproj.AssemblyReference.cache
+D:\mkk_project\WpfApp-Praktika\obj\Debug\AddEditPage.g.cs
+D:\mkk_project\WpfApp-Praktika\obj\Debug\HotelsPage.g.cs
+D:\mkk_project\WpfApp-Praktika\obj\Debug\MainWindow.g.cs
+D:\mkk_project\WpfApp-Praktika\obj\Debug\App.g.cs
+D:\mkk_project\WpfApp-Praktika\obj\Debug\WpfApp ИСиТ 2 лаба_Content.g.cs
+D:\mkk_project\WpfApp-Praktika\obj\Debug\WpfApp ИСиТ 2 лаба_MarkupCompile.cache
+D:\mkk_project\WpfApp-Praktika\obj\Debug\WpfApp ИСиТ 2 лаба_MarkupCompile.lref
+D:\mkk_project\WpfApp-Praktika\obj\Debug\App.baml
+D:\mkk_project\WpfApp-Praktika\obj\Debug\AddEditPage.baml
+D:\mkk_project\WpfApp-Praktika\obj\Debug\HotelsPage.baml
+D:\mkk_project\WpfApp-Praktika\obj\Debug\MainWindow.baml
+D:\mkk_project\WpfApp-Praktika\obj\Debug\WpfApp ИСиТ 2 лаба.g.resources
+D:\mkk_project\WpfApp-Praktika\obj\Debug\WpfApp_ИСиТ_2_лаба.Properties.Resources.resources
+D:\mkk_project\WpfApp-Praktika\obj\Debug\WpfApp ИСиТ 2 лаба.csproj.GenerateResource.cache
+D:\mkk_project\WpfApp-Praktika\obj\Debug\WpfApp ИСиТ 2 лаба.csproj.CoreCompileInputs.cache
+D:\mkk_project\WpfApp-Praktika\obj\Debug\WpfApp _.60A61478.Up2Date
+D:\mkk_project\WpfApp-Praktika\obj\Debug\WpfApp ИСиТ 2 лаба.exe
+D:\mkk_project\WpfApp-Praktika\obj\Debug\WpfApp ИСиТ 2 лаба.pdb

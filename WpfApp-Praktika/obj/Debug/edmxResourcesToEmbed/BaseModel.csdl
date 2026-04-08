@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="climber">
+    <Key>
+      <PropertyRef Name="climber_id" />
+    </Key>
+    <Property Name="climber_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="full_name" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="group_members" Relationship="Self.FK_group_members_climbers" FromRole="climbers" ToRole="group_members" />
+  </EntityType>
+  <EntityType Name="expedition_groups">
+    <Key>
+      <PropertyRef Name="group_id" />
+    </Key>
+    <Property Name="group_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="group_name" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="mountain_id" Type="Int32" Nullable="false" />
+    <Property Name="start_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="end_date" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="mountain" Relationship="Self.FK_expedition_groups_mountains" FromRole="expedition_groups" ToRole="mountains" />
+    <NavigationProperty Name="group_members" Relationship="Self.FK_group_members_expedition_groups" FromRole="expedition_groups" ToRole="group_members" />
+  </EntityType>
+  <EntityType Name="group_members">
+    <Key>
+      <PropertyRef Name="record_id" />
+    </Key>
+    <Property Name="record_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="group_id" Type="Int32" Nullable="false" />
+    <Property Name="climber_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="climber" Relationship="Self.FK_group_members_climbers" FromRole="group_members" ToRole="climbers" />
+    <NavigationProperty Name="expedition_groups" Relationship="Self.FK_group_members_expedition_groups" FromRole="group_members" ToRole="expedition_groups" />
+  </EntityType>
+  <EntityType Name="mountain">
+    <Key>
+      <PropertyRef Name="mountain_id" />
+    </Key>
+    <Property Name="mountain_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="mountain_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="height" Type="Int32" Nullable="false" />
+    <Property Name="country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="region" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="expedition_groups" Relationship="Self.FK_expedition_groups_mountains" FromRole="mountains" ToRole="expedition_groups" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_group_members_climbers">
+    <End Role="climbers" Type="Self.climber" Multiplicity="1" />
+    <End Role="group_members" Type="Self.group_members" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="climbers">
+        <PropertyRef Name="climber_id" />
+      </Principal>
+      <Dependent Role="group_members">
+        <PropertyRef Name="climber_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_expedition_groups_mountains">
+    <End Role="mountains" Type="Self.mountain" Multiplicity="1" />
+    <End Role="expedition_groups" Type="Self.expedition_groups" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mountains">
+        <PropertyRef Name="mountain_id" />
+      </Principal>
+      <Dependent Role="expedition_groups">
+        <PropertyRef Name="mountain_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_group_members_expedition_groups">
+    <End Role="expedition_groups" Type="Self.expedition_groups" Multiplicity="1" />
+    <End Role="group_members" Type="Self.group_members" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="expedition_groups">
+        <PropertyRef Name="group_id" />
+      </Principal>
+      <Dependent Role="group_members">
+        <PropertyRef Name="group_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ИСиТ_лабыEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="climbers" EntityType="Self.climber" />
+    <EntitySet Name="expedition_groups" EntityType="Self.expedition_groups" />
+    <EntitySet Name="group_members" EntityType="Self.group_members" />
+    <EntitySet Name="mountains" EntityType="Self.mountain" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK_group_members_climbers" Association="Self.FK_group_members_climbers">
+      <End Role="climbers" EntitySet="climbers" />
+      <End Role="group_members" EntitySet="group_members" />
+    </AssociationSet>
+    <AssociationSet Name="FK_expedition_groups_mountains" Association="Self.FK_expedition_groups_mountains">
+      <End Role="mountains" EntitySet="mountains" />
+      <End Role="expedition_groups" EntitySet="expedition_groups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_group_members_expedition_groups" Association="Self.FK_group_members_expedition_groups">
+      <End Role="expedition_groups" EntitySet="expedition_groups" />
+      <End Role="group_members" EntitySet="group_members" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
